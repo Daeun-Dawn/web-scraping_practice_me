@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <meta charset='UTF-8'>
+    </head>
+
+    <body>
+        <!-- type 속성 : text, email, password, number, checkbox, radio, submit-->
+        <!-- name : 값에 이름을 정해줌-->
+        <!-- value : 기본값 설정-->
+        <!-- placeholder : 입력할 부분 안내 -->
+        <form action="http://submit.html"> <!-- Action : 정보를 전달하는 경로-->
+            <p>이름 : <input type="text" name = "name" placeholder="test"></p> <!-- 텍스트를 입력할 수 있는 입력란을 의미함-->
+            <p>이메일 : <input type="email" name = "email" placeholder="test@gmail.com"></p>
+            <p>비밀번호 : <input type="password" name="pwd"></p>
+            <p>폰번호 : <input type="number" name="phone"></p>
+            <p>선택 1 :<input type="checkbox" name="html">html</p>
+            <p>선택 2 : <input type="radio" name="html">html</p>
+            <p>내용 : <textarea type="text" rows="5" cols="50"></textarea>></textarea></p> <!-- 장문을 입력할 경우 사용하는 태그임-->
+            <p>제출 : <input type="submit"></p>
+        </form>
+    </body>
+</html>

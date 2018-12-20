@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css apply</title>
+        <meta charset="UTF-8">
+        <style type="text/css"> 
+        p {
+            color:red;
+            font-size:15px;
+        } 
+        
+        a {
+            color:green;
+            font-size:25px;
+        }
+        </style> <!-- Style tag 방식, 모든 p태그에 대해 적용됨-->
+                 <!-- Inline방식이 더 우선시 되는듯하다.-->
+    </head>
+        
+    <body>
+        <!-- Inline방식 : 엘리먼트에 스타일을 직접 기술-->
+        <!-- style tag방식 : style 태그에 기술하는 방식-->
+        <!-- 외부파일 방식 : CSS를 별도의 파일로 분리하여 링크 / 문법적으로 style tag와 동일, 파일 교체로 디자인을 변경할 수 있어 유지보수가 편리함-->
+        <!-- 외부파일 방식이 권장됨-->
+            <!-- 외부파일 방식은 Style Tag방식으로 별도 파일 작성한 뒤-->
+            <!-- <link rel="stylesheet" type="text/css" href="파일경로">-->
+        
+        <p style="color:red; font-size:20px;"> <!-- Inline방식-->
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. <br>
+        </p>
+        <hr>
+        <p style="font-weight:bold;"> <!-- Inline방식-->
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. <br>
+        </p>
+        <h1><a href="01_html_structure.html">인덱스로 이동합니다.</a></h1>
+
+
+    </body>
+</html>
